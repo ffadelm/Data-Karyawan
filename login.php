@@ -38,6 +38,15 @@ if (isset($_POST['submit'])) {
     <!-- Css Login -->
     <link rel="stylesheet" href="./style/login.css">
     <title>Login Admin</title>
+
+    <style>
+        body {
+            background-image: url('https://image.freepik.com/free-photo/aerial-view-coconut-palm-trees-plantation-road_335224-744.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    </style>
 </head>
 
 <body>
@@ -52,7 +61,7 @@ if (isset($_POST['submit'])) {
                 <div class="card-header rounded">
                     <div class="logo fas fa-user-circle  mt-4 mb-5"></div>
                     <h3>Login Admin</h3>
-                    <p class="text-primary">PT Sawit Makmur Abadi</p>
+                    <p class="text-success">PT Sawit Makmur Abadi</p>
                 </div>
                 <div class="card-body">
                     <form method="post">
@@ -70,7 +79,7 @@ if (isset($_POST['submit'])) {
                             <input type="password" name="password" class="form-control" placeholder="password">
                         </div>
                         <div class="form-group mb-4">
-                            <input type="submit" name="submit" value="Login" class="btn btn-primary float-right login_btn">
+                            <input type="submit" name="submit" value="Login" class="btn btn-success float-right login_btn">
                         </div>
                     </form>
                 </div>

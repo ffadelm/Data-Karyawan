@@ -36,12 +36,11 @@ if (isset($_POST['submit'])) {
     <link rel="icon" href="images/favicon.png" type="image/ico" />
 
     <!-- Css Login -->
-    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="./style/login.css">
     <title>Login Admin</title>
 </head>
 
-<body class="bg-primary">
-
+<body>
     <div class="container ">
         <?php
         if (isset($ermsg) && !empty($ermsg)) {

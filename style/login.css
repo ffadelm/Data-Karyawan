@@ -8,3 +8,9 @@ h3,p{
     text-align: center;
 }
 
+body {
+    background-image: url('https://image.freepik.com/free-photo/palm-trees-palm-oil-plantation-south-east-asia_181624-6050.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

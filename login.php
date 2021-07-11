@@ -35,16 +35,31 @@ if (isset($_POST['submit'])) {
     <!-- favicon top -->
     <link rel="icon" href="images/favicon.png" type="image/ico" />
 
-    <!-- Css Login -->
-    <link rel="stylesheet" href="./style/login.css">
     <title>Login Admin</title>
 
+    <!-- styling responsive -->
     <style>
         body {
-            background-image: url('https://image.freepik.com/free-photo/aerial-view-coconut-palm-trees-plantation-road_335224-744.jpg');
+            background-color: green;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
+        }
+
+        footer {
+            color: white;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            font-size: 100px;
+            margin: 0 auto;
+        }
+
+        h3,
+        p {
+            text-align: center;
         }
     </style>
 </head>
@@ -86,6 +101,13 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
     </div>
+
+    <footer class="application-footer mt-3">
+        <div class="container">
+            <p>Sistem Informasi PT Sawit Makmur Abadi <br>
+                Copyright © faysal fadel maulana <br> 2021</Copyright>
+        </div>
+    </footer>
 
 
     <!-- Optional JavaScript -->

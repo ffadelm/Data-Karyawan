@@ -11,27 +11,27 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap5.min.css">
 
     <!-- favicon top -->
-    <link rel="icon" href="images/favicon.png" type="image/ico" />
+    <link rel="icon" href="images/favicon.png" type="image/icon" />
 
     <!-- css stylesheet bootstrap assets  -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 
-    <!-- styling responsive di sini karena css design pakai bootstrap -->
+    <!-- styling responsive -->
     <style>
         @media (min-device-width: 375px) and (max-device-width: 1024px) {
             .textNav {
                 font-size: 17px;
             }
 
-            h2, body {
-            padding-top: 50px;
-        }
+            h2,
+            body {
+                padding-top: 50px;
+            }
         }
 
         h2 {
             padding-top: 17px;
         }
-        
     </style>
 
     <title>Sistem Informasi PT Sawit Makmur Abadi</title>
@@ -88,41 +88,49 @@
         }
         ?>
 
-        <div class="formData container">
-            <form action="store.php" method="post" name="form">
-                <div class="item form-group">
-                    <label class="col-form-label col-md-3 col-sm-3 label-align">Nama Lengkap</label>
-                    <div class="col-md-6 col-sm-6 ">
-                        <input type="text" name="nama" class="form-control" size="4" required>
+        <div class="formData container ">
+            <div class="row">
+                <form action="store.php" method="post" name="form">
+                    <div class="item form-group">
+                        <label class="col-form-label col-md-3 col-sm-3 label-align">Nama Lengkap</label>
+                        <div class="col-md-6 col-sm-6 ">
+                            <input type="text" name="nama" class="form-control" size="4" required>
+                        </div>
                     </div>
-                </div>
-                <div class="item form-group">
-                    <label class="col-form-label col-md-3 col-sm-3 label-align">Nomor KTP</label>
-                    <div class="col-md-6 col-sm-6">
-                        <input type="text" name="no_ktp" class="form-control" required>
+                    <div class="item form-group ">
+                        <label class="col-form-label col-md-3 col-sm-3 label-align-items-start">Nomor KTP</label>
+                        <div class="col-md-6 col-sm-6">
+                            <input type="text" name="no_ktp" class="form-control" required>
+                        </div>
                     </div>
-                </div>
-                <div class="item form-group">
-                    <label class="col-form-label col-md-3 col-sm-3 label-align">Nomor Telepon</label>
-                    <div class="col-md-6 col-sm-6">
-                        <input type="text" name="no_telp" class="form-control" required>
+                    <div class="item form-group">
+                        <label class="col-form-label col-md-3 col-sm-3 label-align">Nomor Telepon</label>
+                        <div class="col-md-6 col-sm-6">
+                            <input type="text" name="no_telp" class="form-control" required>
+                        </div>
                     </div>
-                </div>
-                <div class="item form-group">
-                    <label class="col-form-label col-md-3 col-sm-3 label-align">Tahun Masuk</label>
-                    <div class="col-md-6 col-sm-6">
-                        <input type="text" name="th_masuk" placeholder="(yyyy-mm-dd)" class="form-control" required>
+                    <div class="item form-group">
+                        <label class="col-form-label col-md-3 col-sm-3 label-align">Tahun Masuk</label>
+                        <div class="col-md-6 col-sm-6">
+                            <input type="date" name="th_masuk" placeholder="(yyyy-mm-dd)" class="form-control" required>
+                        </div>
                     </div>
-                </div>
-                <div class="item form-group mt-4">
-                    <div class="col-md-6 col-sm-6 ">
-                        <input type="submit" name="submit" class="btn btn-primary btn-lg btn-block" value="Simpan">
-                    </div>
-            </form>
+                    <div class="item form-group mt-4">
+                        <div class="col-md-6 col-sm-6 ">
+                            <input type="submit" name="submit" class="btn btn-success btn-lg btn-block" value="Simpan">
+                        </div>
+                </form>
+            </div>
         </div>
 
     </div>
 
+    <footer class="application-footer mt-5">
+        <div class="container">
+            <center>Sistem Informasi PT Sawit Makmur Abadi <br>
+                Copyright © faysal fadel maulana <br> 2021</Copyright>
+        </div>
+    </footer>
 
     <!-- end -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>

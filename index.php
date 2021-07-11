@@ -25,12 +25,17 @@ if (!isset($_SESSION["id_admin"])) {
     <!-- css stylesheet bootstrap assets  -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 
-    <!-- styling responsive di sini karena css design pakai bootstrap -->
+    <!-- styling responsive -->
     <style>
         @media (min-device-width: 375px) and (max-device-width: 1024px) {
             .textNav {
                 font-size: 17px;
             }
+        }
+
+        .textTop{
+            padding-top: 50px;
+            font-size: 30px;
         }
     </style>
 
@@ -58,14 +63,19 @@ if (!isset($_SESSION["id_admin"])) {
     </nav>
     <!-- nav end -->
 
+
     <!-- button tambah start -->
     <div class="container data-karyawan mt-5">
-    <a href="store.php" class="btn btn-primary mb-1 mt-5 text-white">Tambah Data</a>
+        <center class="textTop">
+            <p class="fw-bold">DATA KARYAWAN <br> PT SAWIT MAKMUR ABADI</p>
+        </center>
+        <hr>
+        <a href="store.php" class="btn btn-primary mb-3">Tambah Data</a>
     </div>
     <!-- button tambahl end -->
 
     <!-- Table start  -->
-    <div class="container data-karyawan mt-5">
+    <div class="container table-responsive data-karyawan">
         <table class="table table-striped" id="tableKaryawan">
             <thead>
                 <tr class="bg-success text-white">
@@ -126,7 +136,17 @@ if (!isset($_SESSION["id_admin"])) {
         </table>
     </div>
     <!-- table end -->
+
+    <footer class="application-footer mt-5">
+        <div class="container">
+            <center>Sistem Informasi PT Sawit Makmur Abadi <br>
+                Copyright © faysal fadel maulana <br> 2021</Copyright>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap5.min.js"></script>

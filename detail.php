@@ -9,12 +9,19 @@
     <!-- css stylesheet bootstrap assets  -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 
-    <!-- styling responsive di sini karena css design pakai bootstrap -->
+    <!-- favicon top -->
+    <link rel="icon" href="images/favicon.png" type="image/icon" />
+
+    <!-- styling responsive -->
     <style>
         @media (min-device-width: 375px) and (max-device-width: 1024px) {
             .textNav {
                 font-size: 17px;
             }
+        }
+
+        .profile {
+            padding-top: 50px;
         }
     </style>
 
@@ -23,7 +30,7 @@
 
 <body>
     <!-- nav start -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success">
         <div class="container">
             <a class="textNav navbar-brand fw-bold" href="index.php">Sistem Informasi PT Sawit Makmur Abadi</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +56,7 @@
     $karyawan = mysqli_query($koneksi, "select * from karyawan where id_karyawan='$id'");
     while ($data = mysqli_fetch_assoc($karyawan)) {
     ?>
-        <div class="container mt-4">
+        <div class="profile container mt-5">
             <p><a href="index.php">Home</a>/ Detail Karyawan / <?php echo $data['nama'] ?></p>
             <div class="card">
                 <div class="card-header">
@@ -75,6 +82,13 @@
     }
     ?>
     <!-- detail end -->
+
+    <footer class="application-footer mt-5 mb-3">
+        <div class="container">
+            <center>Sistem Informasi PT Sawit Makmur Abadi <br>
+                Copyright © faysal fadel maulana <br> 2021</Copyright>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 

@@ -17,7 +17,7 @@
                         // Username & password correct
                         session_start();
                         $_SESSION['id_admin'] = $results[0]['id_admin'];
-                        header('location:home.php');
+                        header('location: home.php');
                     } else $ermsg = "Password salah !";
                 } else $ermsg = "Username tidak ditemukan !";
             } else $ermsg = "Password kosong !";

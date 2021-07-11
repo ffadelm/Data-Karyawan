@@ -1,3 +1,5 @@
+<!-- Copyright © faysal fadel maulana 20190140097 -->
+
 <!doctype html>
 <html lang="en">
 
@@ -28,7 +30,6 @@
                 padding-top: 50px;
             }
         }
-
         h2 {
             padding-top: 17px;
         }
@@ -57,7 +58,9 @@
         </div>
     </nav>
     <!-- nav end -->
-    <!-- start -->
+    <!-- Copyright © faysal fadel maulana 20190140097 -->
+
+    <!-- input start -->
     <div class="container mt-5">
         <?php include('config.php'); ?>
 
@@ -87,34 +90,39 @@
             }
         }
         ?>
-
+        <!-- Copyright © faysal fadel maulana 20190140097 -->
         <div class="formData container ">
             <div class="row">
                 <form action="store.php" method="post" name="form">
+                    <!-- input nama -->
                     <div class="item form-group">
                         <label class="col-form-label col-md-3 col-sm-3 label-align">Nama Lengkap</label>
                         <div class="col-md-6 col-sm-6 ">
                             <input type="text" name="nama" class="form-control" size="4" required>
                         </div>
                     </div>
+                    <!-- input ktp -->
                     <div class="item form-group ">
                         <label class="col-form-label col-md-3 col-sm-3 label-align-items-start">Nomor KTP</label>
                         <div class="col-md-6 col-sm-6">
                             <input type="text" name="no_ktp" class="form-control" required>
                         </div>
                     </div>
+                    <!-- input Telepon -->
                     <div class="item form-group">
                         <label class="col-form-label col-md-3 col-sm-3 label-align">Nomor Telepon</label>
                         <div class="col-md-6 col-sm-6">
                             <input type="text" name="no_telp" class="form-control" required>
                         </div>
                     </div>
+                    <!-- input tahun -->
                     <div class="item form-group">
                         <label class="col-form-label col-md-3 col-sm-3 label-align">Tahun Masuk</label>
                         <div class="col-md-6 col-sm-6">
                             <input type="date" name="th_masuk" placeholder="(yyyy-mm-dd)" class="form-control" required>
                         </div>
                     </div>
+                    <!-- Copyright © faysal fadel maulana 20190140097 -->
                     <div class="item form-group mt-4">
                         <div class="col-md-6 col-sm-6 ">
                             <input type="submit" name="submit" class="btn btn-success btn-lg btn-block" value="Simpan">
@@ -122,8 +130,8 @@
                 </form>
             </div>
         </div>
-
     </div>
+    <!-- input end -->
 
     <footer class="application-footer mt-5">
         <div class="container">
@@ -139,3 +147,4 @@
 </body>
 
 </html>
+<!-- Copyright © faysal fadel maulana 20190140097 -->

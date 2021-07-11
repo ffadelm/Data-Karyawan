@@ -1,3 +1,5 @@
+    <!-- Copyright © faysal fadel maulana 20190140097 -->
+
 <?php 
 session_start();
 // Unset all session variables
@@ -8,3 +10,5 @@ session_destroy();
 header("location:login.php");
 exit();
 ?>
+
+    <!-- Copyright © faysal fadel maulana 20190140097 -->

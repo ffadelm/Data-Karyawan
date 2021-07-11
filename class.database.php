@@ -1,3 +1,5 @@
+<!-- Copyright © faysal fadel maulana 20190140097 -->
+
 <?php
 // database class
 class database {
@@ -106,3 +108,5 @@ class database {
 
 $database = new database();
 ?>
+
+<!-- Copyright © faysal fadel maulana 20190140097 -->

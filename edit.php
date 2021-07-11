@@ -1,3 +1,5 @@
+<!-- Copyright © faysal fadel maulana 20190140097 -->
+
 <!doctype html>
 <html lang="en">
 
@@ -58,6 +60,7 @@
     $karyawan = mysqli_query($koneksi, "select * from karyawan where id_karyawan='$id'");
     while ($data = mysqli_fetch_assoc($karyawan)) {
     ?>
+        <!-- Copyright © faysal fadel maulana 20190140097 -->
         <div class="profile container mt-5">
             <p><a href="index.php">Home</a>/ Edit Profil Karyawan / <?php echo $data['nama'] ?></p>
             <div class="card">
@@ -69,22 +72,27 @@
                         <div class="mb-3">
                             <input type="hidden" class="form-control" name="id_karyawan" value="<?php echo $data['id_karyawan']; ?>">
                         </div>
+                        <!-- edit nama -->
                         <div class="mb-3">
                             <label for="Nama" class="form-label">Nama</label>
                             <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Lengkap" name="nama" value="<?php echo $data['nama']; ?>">
                         </div>
+                        <!-- edit ktp -->
                         <div class="mb-3">
                             <label for="no_ktp" class="form-label">Nomor KTP</label>
                             <input type="text" class="form-control" id="no_ktp" placeholder="Masukkan Nomor KTP" name="no_ktp" value="<?php echo $data['no_ktp']; ?>">
                         </div>
+                        <!-- edit Telepon -->
                         <div class="mb-3">
                             <label for="no_telp" class="form-label">Nomor Telepon</label>
                             <input type="text" class="form-control" id="no_telp" placeholder="Masukkan Nomor Telepon" name="no_telp" value="<?php echo $data['no_telp']; ?>">
                         </div>
+                        <!-- edit tahun -->
                         <div class="mb-3">
                             <label for="th_masuk" class="form-label">Tahun Masuk</label>
                             <input type="date" class="form-control" id="th_masuk" placeholder="Masukkan Tahun Masuk (yyyy-mm-dd)" name="th_masuk" value="<?php echo $data['th_masuk']; ?>">
                         </div>
+                        <!-- Copyright © faysal fadel maulana 20190140097 -->
                         <button type="submit" class="btn btn-primary" value="SIMPAN">Update</button>
                     </form>
                 </div>
@@ -95,13 +103,18 @@
     ?>
     <!-- edit end -->
 
+    <!-- Copyright © faysal fadel maulana 20190140097 -->
+    <!-- footer start -->
     <footer class="application-footer mt-5 mb-3">
         <div class="container">
             <center>Sistem Informasi PT Sawit Makmur Abadi <br>
                 Copyright © faysal fadel maulana <br> 2021</Copyright>
         </div>
     </footer>
+    <!-- footer end -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 
 </html>
+
+<!-- Copyright © faysal fadel maulana 20190140097 -->

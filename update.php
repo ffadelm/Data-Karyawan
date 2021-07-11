@@ -1,3 +1,5 @@
+<!-- Copyright © faysal fadel maulana 20190140097 -->
+
 <?php
 //include con database
 include './config.php';
@@ -12,3 +14,5 @@ $th_masuk = $_POST['th_masuk'];
 mysqli_query($koneksi, "update karyawan set nama='$nama', no_ktp = '$no_ktp', no_telp = '$no_telp', th_masuk = '$th_masuk' where id_karyawan = '$id'");
 header("location: index.php");
 ?>
+
+<!-- Copyright © faysal fadel maulana 20190140097 -->

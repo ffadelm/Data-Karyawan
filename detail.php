@@ -1,3 +1,5 @@
+<!-- Copyright © faysal fadel maulana 20190140097 -->
+
 <!doctype html>
 <html lang="en">
 
@@ -19,7 +21,6 @@
                 font-size: 17px;
             }
         }
-
         .profile {
             padding-top: 50px;
         }
@@ -83,13 +84,17 @@
     ?>
     <!-- detail end -->
 
+    <!-- Copyright © faysal fadel maulana 20190140097 -->
+    <!-- footer start  -->
     <footer class="application-footer mt-5 mb-3">
         <div class="container">
             <center>Sistem Informasi PT Sawit Makmur Abadi <br>
                 Copyright © faysal fadel maulana <br> 2021</Copyright>
         </div>
     </footer>
+    <!-- footer end -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 
 </html>
+<!-- Copyright © faysal fadel maulana 20190140097 -->

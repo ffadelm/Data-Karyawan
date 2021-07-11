@@ -1,3 +1,5 @@
+<!-- Copyright © faysal fadel maulana 20190140097 -->
+
 <?php
 session_start();
 // if the user is not logged in, then redirect to the logout page
@@ -37,10 +39,12 @@ if (!isset($_SESSION["id_admin"])) {
                 height: 120px;
                 padding-top: 20px;
             }
-            font{
+
+            font {
                 font-size: 20px;
             }
-            footer{
+
+            footer {
                 font-size: 13px;
             }
         }
@@ -69,7 +73,7 @@ if (!isset($_SESSION["id_admin"])) {
         </div>
     </nav>
     <!-- nav end -->
-
+    <!-- Copyright © faysal fadel maulana 20190140097 -->
     <!-- home start -->
     <div class="container">
         <center><br><br>
@@ -121,15 +125,19 @@ if (!isset($_SESSION["id_admin"])) {
         </div>
         <!-- carousel end -->
     </div>
-
     <!-- home end -->
 
+    <!-- Copyright © faysal fadel maulana 20190140097 -->
+
+    <!-- footer start -->
     <footer class="application-footer mt-3 mb-5">
         <div class="container">
             <center>Sistem Informasi PT Sawit Makmur Abadi <br>
-            Copyright © faysal fadel maulana <br> 2021</Copyright>
+                Copyright © faysal fadel maulana <br> 2021</Copyright>
         </div>
     </footer>
+    <!-- footer end -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -141,3 +149,4 @@ if (!isset($_SESSION["id_admin"])) {
 </body>
 
 </html>
+<!-- Copyright © faysal fadel maulana 20190140097 -->
